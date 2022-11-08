@@ -9,9 +9,9 @@ public class Dev extends Employees{
     Integer Total = Bonus + baseSalary;
 
     public static void main(String[] args) {
-        Dev vilas1 = new Dev();
+        Dev virat = new Dev();
 
-        System.out.println("Total Salary of Vilas is " + vilas1.Total );
+        System.out.println("Total Salary of Virat is " + virat.Total );
     }
 
 }
