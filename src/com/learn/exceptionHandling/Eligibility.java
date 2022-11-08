@@ -6,7 +6,7 @@ public class Eligibility {
             if (exp < 10) {
                 throw new ArithmeticException("This person is not eligible for this job ");
             } else {
-                System.out.println("This person is eligible fo this job");
+                System.out.println("This person is eligible for this job");
             }
         }
 
