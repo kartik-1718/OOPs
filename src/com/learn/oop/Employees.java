@@ -13,4 +13,10 @@ class Employees{
         System.out.println(total);
     }
 
+
+    void Working(){
+        System.out.println(" Employee is Working");
+    }
+
+
 }
