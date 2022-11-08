@@ -1,6 +1,7 @@
 package com.learn.collections;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 
 
 public class ArrayListDemo {
@@ -12,9 +13,14 @@ public class ArrayListDemo {
         participant.add("Akash");//2
         participant.add("Akshay");//3
         participant.add("Amit");//4
+        participant.add(1,"dhoni");
 
-        System.out.println(participant);
 
+        Iterator itr = participant.iterator();
+
+        while(itr.hasNext()) {
+            System.out.println(itr.next());
+        }
 
     }
 }
