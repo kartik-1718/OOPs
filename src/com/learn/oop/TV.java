@@ -20,6 +20,10 @@ public class TV
         DisplayType = DType;
     }
 
+    void displayTv(){
+        System.out.println(Brand+ " "+ ModelName );
+    }
+
     //defined main method
     public static void main(String[] args) {
         TV lgOled = new TV();
@@ -37,7 +41,13 @@ public class TV
 
         SamsungFrame.insertData("Samsung ", "Qled Ultra", 50 , 90000, "Black" , "Qled" );
 
+
+
         System.out.println(SamsungFrame.Brand+ " " + SamsungFrame.ModelName + " " + SamsungFrame.ScreenSize + " " + SamsungFrame.Price + " " + SamsungFrame.Color + " " + SamsungFrame.DisplayType);
+
+        lgOled.displayTv();
+        SamsungFrame.displayTv();
+
 
     }
 
