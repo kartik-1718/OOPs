@@ -12,7 +12,6 @@ class Car1{
 public class RiskyCar {
     public static void main(String[] args) {
 
-
         try {
             Car1 c1 = new Car1();
             c1.breakdown();
