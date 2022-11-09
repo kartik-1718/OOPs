@@ -19,6 +19,9 @@ public class LinkedListDemo {
 
         fruits.add(1,"Guava");
 
+        fruits.removeFirst();
+        fruits.removeLast();
+
 
         Iterator itr = fruits.iterator();
 
