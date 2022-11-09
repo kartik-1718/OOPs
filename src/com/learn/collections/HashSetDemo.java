@@ -9,7 +9,7 @@ public class HashSetDemo    {
         HashSet<String> members= new HashSet<>();
         members.add("aaaaaa");
         members.add("bbbbbbbb");
-        members.add("ccccccc");
+        members.add("ccccccc");//Contains Unique Elements
         members.add("ccccccc");
 
         members.remove("aaaaaa");
