@@ -13,7 +13,7 @@ public class TreeSetDemo {
         cars.add("Bugati");
         cars.add("Ferrari");
 
-        Iterator<String> itr = cars.iterator();
+        Iterator<String> itr = cars.descendingIterator();
 
         while(itr.hasNext()){
             System.out.println(itr.next());
